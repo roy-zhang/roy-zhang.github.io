@@ -22,20 +22,20 @@ return null;
 })], null)], null);
 });
 carbon_calc.core.assumptions_table = (function carbon_calc$core$assumptions_table(){
-var map__26401 = cljs.core.deref(carbon_calc.core.assumptions);
-var map__26401__$1 = (((((!((map__26401 == null))))?(((((map__26401.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__26401.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__26401):map__26401);
-var assumptions = map__26401__$1;
-var allowance_floor_price = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__26401__$1,cljs.core.cst$kw$allowance_DASH_floor_DASH_price);
-var offsets_cap = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__26401__$1,cljs.core.cst$kw$offsets_DASH_cap);
-var offset_benefiting_oregon = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__26401__$1,cljs.core.cst$kw$offset_DASH_benefiting_DASH_oregon);
-var offset_discount = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__26401__$1,cljs.core.cst$kw$offset_DASH_discount);
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$fieldset,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$legend,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$h3,"Assumptions Table"], null)], null),carbon_calc.util.table.to_table1d.cljs$core$IFn$_invoke$arity$3((new cljs.core.List(null,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Allowance Reserve Floor Price, $/mmCO2e1   ($14.53 in 2018, projected to be $16.77 in 2021 in 2018 dollars)",new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [carbon_calc.core.assumptions_slider,cljs.core.cst$kw$allowance_DASH_floor_DASH_price,allowance_floor_price,(0),100.0], null),["$",cljs.core.str.cljs$core$IFn$_invoke$arity$1(allowance_floor_price),".00"].join('')], null),(new cljs.core.List(null,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Offsets Cap (relative to each entities' GHG emissions)",new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [carbon_calc.core.assumptions_slider,cljs.core.cst$kw$offsets_DASH_cap,offsets_cap,(0),(100)], null),[cljs.core.str.cljs$core$IFn$_invoke$arity$1(offsets_cap),"%"].join('')], null),(new cljs.core.List(null,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Offsets % that must directly benefit Oregon",new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [carbon_calc.core.assumptions_slider,cljs.core.cst$kw$offset_DASH_benefiting_DASH_oregon,offset_benefiting_oregon,(0),(100)], null),[cljs.core.str.cljs$core$IFn$_invoke$arity$1(offset_benefiting_oregon),"%"].join('')], null),(new cljs.core.List(null,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Offsets Price Discount Relative to Allowance Price",new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [carbon_calc.core.assumptions_slider,cljs.core.cst$kw$offset_DASH_discount,offset_discount,(0),(100)], null),[cljs.core.str.cljs$core$IFn$_invoke$arity$1(offset_discount),"%"].join('')], null),null,(1),null)),(2),null)),(3),null)),(4),null)),new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),"assumption",(1),"slider",(2),"value"], null),new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$show_DASH_head_QMARK_,false], null))], null);
+var map__23281 = cljs.core.deref(carbon_calc.core.assumptions);
+var map__23281__$1 = (((((!((map__23281 == null))))?(((((map__23281.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__23281.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__23281):map__23281);
+var assumptions = map__23281__$1;
+var allowance_floor_price = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__23281__$1,cljs.core.cst$kw$allowance_DASH_floor_DASH_price);
+var offsets_cap = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__23281__$1,cljs.core.cst$kw$offsets_DASH_cap);
+var offset_benefiting_oregon = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__23281__$1,cljs.core.cst$kw$offset_DASH_benefiting_DASH_oregon);
+var offset_discount = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__23281__$1,cljs.core.cst$kw$offset_DASH_discount);
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$fieldset,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$legend,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$h3,"Assumptions Table"], null)], null),carbon_calc.util.table.to_table1d.cljs$core$IFn$_invoke$arity$3((new cljs.core.List(null,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Allowance Reserve Floor Price, $/mmCO2e1   ($14.53 in 2018, projected to be $16.77 in 2021 in 2018 dollars)",new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [carbon_calc.core.assumptions_slider,cljs.core.cst$kw$allowance_DASH_floor_DASH_price,allowance_floor_price,(0),100.0], null),["$",cljs.core.str.cljs$core$IFn$_invoke$arity$1(allowance_floor_price),".00"].join('')], null),(new cljs.core.List(null,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Offsets Cap (relative to each entities' GHG emissions)",new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [carbon_calc.core.assumptions_slider,cljs.core.cst$kw$offsets_DASH_cap,offsets_cap,(0),(8)], null),[cljs.core.str.cljs$core$IFn$_invoke$arity$1(offsets_cap),"%"].join('')], null),(new cljs.core.List(null,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Offsets % that must directly benefit Oregon",new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [carbon_calc.core.assumptions_slider,cljs.core.cst$kw$offset_DASH_benefiting_DASH_oregon,offset_benefiting_oregon,(0),(100)], null),[cljs.core.str.cljs$core$IFn$_invoke$arity$1(offset_benefiting_oregon),"%"].join('')], null),(new cljs.core.List(null,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Offsets Price Discount Relative to Allowance Price",new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [carbon_calc.core.assumptions_slider,cljs.core.cst$kw$offset_DASH_discount,offset_discount,(0),(100)], null),[cljs.core.str.cljs$core$IFn$_invoke$arity$1(offset_discount),"%"].join('')], null),null,(1),null)),(2),null)),(3),null)),(4),null)),new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0),"assumption",(1),"slider",(2),"value"], null),new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$show_DASH_head_QMARK_,false], null))], null);
 });
 carbon_calc.core.category_slider = (function carbon_calc$core$category_slider(param){
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,[cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var fexpr__26404 = cljs.core.deref(carbon_calc.core.allowances);
-return (fexpr__26404.cljs$core$IFn$_invoke$arity$1 ? fexpr__26404.cljs$core$IFn$_invoke$arity$1(param) : fexpr__26404.call(null,param));
-})()),"%"].join('')], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$input,new cljs.core.PersistentArrayMap(null, 6, [cljs.core.cst$kw$type,"range",cljs.core.cst$kw$value,(function (){var fexpr__26405 = cljs.core.deref(carbon_calc.core.allowances);
-return (fexpr__26405.cljs$core$IFn$_invoke$arity$1 ? fexpr__26405.cljs$core$IFn$_invoke$arity$1(param) : fexpr__26405.call(null,param));
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,[cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var fexpr__23284 = cljs.core.deref(carbon_calc.core.allowances);
+return (fexpr__23284.cljs$core$IFn$_invoke$arity$1 ? fexpr__23284.cljs$core$IFn$_invoke$arity$1(param) : fexpr__23284.call(null,param));
+})()),"%"].join('')], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$input,new cljs.core.PersistentArrayMap(null, 6, [cljs.core.cst$kw$type,"range",cljs.core.cst$kw$value,(function (){var fexpr__23285 = cljs.core.deref(carbon_calc.core.allowances);
+return (fexpr__23285.cljs$core$IFn$_invoke$arity$1 ? fexpr__23285.cljs$core$IFn$_invoke$arity$1(param) : fexpr__23285.call(null,param));
 })(),cljs.core.cst$kw$min,(0),cljs.core.cst$kw$max,(100),cljs.core.cst$kw$style,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.cst$kw$width,"100%"], null),cljs.core.cst$kw$on_DASH_change,(function (e){
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(carbon_calc.core.allowances,cljs.core.assoc,param,e.target.value);
 
@@ -52,12 +52,12 @@ return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(carbon_calc.core.exemp
 });
 });
 carbon_calc.core.category_checkbox = (function carbon_calc$core$category_checkbox(param){
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var fexpr__26407 = cljs.core.deref(carbon_calc.core.exempts);
-return (fexpr__26407.cljs$core$IFn$_invoke$arity$1 ? fexpr__26407.cljs$core$IFn$_invoke$arity$1(param) : fexpr__26407.call(null,param));
-})())], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$input,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$checkbox,cljs.core.cst$kw$value,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var fexpr__26409 = cljs.core.deref(carbon_calc.core.exempts);
-return (fexpr__26409.cljs$core$IFn$_invoke$arity$1 ? fexpr__26409.cljs$core$IFn$_invoke$arity$1(param) : fexpr__26409.call(null,param));
-})()),cljs.core.cst$kw$checked,(cljs.core.truth_((function (){var fexpr__26410 = cljs.core.deref(carbon_calc.core.exempts);
-return (fexpr__26410.cljs$core$IFn$_invoke$arity$1 ? fexpr__26410.cljs$core$IFn$_invoke$arity$1(param) : fexpr__26410.call(null,param));
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$div,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var fexpr__23287 = cljs.core.deref(carbon_calc.core.exempts);
+return (fexpr__23287.cljs$core$IFn$_invoke$arity$1 ? fexpr__23287.cljs$core$IFn$_invoke$arity$1(param) : fexpr__23287.call(null,param));
+})())], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$input,new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$checkbox,cljs.core.cst$kw$value,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var fexpr__23289 = cljs.core.deref(carbon_calc.core.exempts);
+return (fexpr__23289.cljs$core$IFn$_invoke$arity$1 ? fexpr__23289.cljs$core$IFn$_invoke$arity$1(param) : fexpr__23289.call(null,param));
+})()),cljs.core.cst$kw$checked,(cljs.core.truth_((function (){var fexpr__23290 = cljs.core.deref(carbon_calc.core.exempts);
+return (fexpr__23290.cljs$core$IFn$_invoke$arity$1 ? fexpr__23290.cljs$core$IFn$_invoke$arity$1(param) : fexpr__23290.call(null,param));
 })())?"checked":null),cljs.core.cst$kw$on_DASH_click,carbon_calc.core.switch_exempt(param)], null)], null)], null);
 });
 carbon_calc.core.comma_money = (function carbon_calc$core$comma_money(cash){
@@ -72,33 +72,33 @@ return i;
 }
 });
 carbon_calc.core.max_pot_revenue = (function carbon_calc$core$max_pot_revenue(param){
-if(cljs.core.truth_((function (){var fexpr__26411 = cljs.core.deref(carbon_calc.core.exempts);
-return (fexpr__26411.cljs$core$IFn$_invoke$arity$1 ? fexpr__26411.cljs$core$IFn$_invoke$arity$1(param) : fexpr__26411.call(null,param));
+if(cljs.core.truth_((function (){var fexpr__23291 = cljs.core.deref(carbon_calc.core.exempts);
+return (fexpr__23291.cljs$core$IFn$_invoke$arity$1 ? fexpr__23291.cljs$core$IFn$_invoke$arity$1(param) : fexpr__23291.call(null,param));
 })())){
 return (0);
 } else {
-return carbon_calc.core.round_up((((function (){var G__26412 = cljs.core.cst$kw$assumed_DASH_emissions.cljs$core$IFn$_invoke$arity$1(carbon_calc.core.constants);
-return (param.cljs$core$IFn$_invoke$arity$1 ? param.cljs$core$IFn$_invoke$arity$1(G__26412) : param.call(null,G__26412));
+return carbon_calc.core.round_up((((function (){var G__23292 = cljs.core.cst$kw$assumed_DASH_emissions.cljs$core$IFn$_invoke$arity$1(carbon_calc.core.constants);
+return (param.cljs$core$IFn$_invoke$arity$1 ? param.cljs$core$IFn$_invoke$arity$1(G__23292) : param.call(null,G__23292));
 })() * (1000000)) * cljs.core.cst$kw$allowance_DASH_floor_DASH_price.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(carbon_calc.core.assumptions))));
 }
 });
 carbon_calc.core.pot_rein_rev_lost = (function carbon_calc$core$pot_rein_rev_lost(param){
-if(((cljs.core.not((function (){var fexpr__26417 = cljs.core.deref(carbon_calc.core.exempts);
-return (fexpr__26417.cljs$core$IFn$_invoke$arity$1 ? fexpr__26417.cljs$core$IFn$_invoke$arity$1(param) : fexpr__26417.call(null,param));
-})())) && (((function (){var G__26419 = cljs.core.cst$kw$offset_DASH_discount;
-var fexpr__26418 = cljs.core.deref(carbon_calc.core.assumptions);
-return (fexpr__26418.cljs$core$IFn$_invoke$arity$1 ? fexpr__26418.cljs$core$IFn$_invoke$arity$1(G__26419) : fexpr__26418.call(null,G__26419));
-})() > (0))) && (((function (){var fexpr__26420 = cljs.core.deref(carbon_calc.core.allowances);
-return (fexpr__26420.cljs$core$IFn$_invoke$arity$1 ? fexpr__26420.cljs$core$IFn$_invoke$arity$1(param) : fexpr__26420.call(null,param));
+if(((cljs.core.not((function (){var fexpr__23297 = cljs.core.deref(carbon_calc.core.exempts);
+return (fexpr__23297.cljs$core$IFn$_invoke$arity$1 ? fexpr__23297.cljs$core$IFn$_invoke$arity$1(param) : fexpr__23297.call(null,param));
+})())) && (((function (){var G__23299 = cljs.core.cst$kw$offset_DASH_discount;
+var fexpr__23298 = cljs.core.deref(carbon_calc.core.assumptions);
+return (fexpr__23298.cljs$core$IFn$_invoke$arity$1 ? fexpr__23298.cljs$core$IFn$_invoke$arity$1(G__23299) : fexpr__23298.call(null,G__23299));
+})() > (0))) && (((function (){var fexpr__23300 = cljs.core.deref(carbon_calc.core.allowances);
+return (fexpr__23300.cljs$core$IFn$_invoke$arity$1 ? fexpr__23300.cljs$core$IFn$_invoke$arity$1(param) : fexpr__23300.call(null,param));
 })() < (100))))){
-return ((((function (){var G__26421 = cljs.core.cst$kw$assumed_DASH_emissions.cljs$core$IFn$_invoke$arity$1(carbon_calc.core.constants);
-return (param.cljs$core$IFn$_invoke$arity$1 ? param.cljs$core$IFn$_invoke$arity$1(G__26421) : param.call(null,G__26421));
-})() * (10000)) * (function (){var x__4222__auto__ = ((100) - (function (){var fexpr__26422 = cljs.core.deref(carbon_calc.core.allowances);
-return (fexpr__26422.cljs$core$IFn$_invoke$arity$1 ? fexpr__26422.cljs$core$IFn$_invoke$arity$1(param) : fexpr__26422.call(null,param));
+return ((((function (){var G__23301 = cljs.core.cst$kw$assumed_DASH_emissions.cljs$core$IFn$_invoke$arity$1(carbon_calc.core.constants);
+return (param.cljs$core$IFn$_invoke$arity$1 ? param.cljs$core$IFn$_invoke$arity$1(G__23301) : param.call(null,G__23301));
+})() * (10000)) * (function (){var x__4222__auto__ = ((100) - (function (){var fexpr__23302 = cljs.core.deref(carbon_calc.core.allowances);
+return (fexpr__23302.cljs$core$IFn$_invoke$arity$1 ? fexpr__23302.cljs$core$IFn$_invoke$arity$1(param) : fexpr__23302.call(null,param));
 })());
-var y__4223__auto__ = (function (){var G__26424 = cljs.core.cst$kw$offsets_DASH_cap;
-var fexpr__26423 = cljs.core.deref(carbon_calc.core.assumptions);
-return (fexpr__26423.cljs$core$IFn$_invoke$arity$1 ? fexpr__26423.cljs$core$IFn$_invoke$arity$1(G__26424) : fexpr__26423.call(null,G__26424));
+var y__4223__auto__ = (function (){var G__23304 = cljs.core.cst$kw$offsets_DASH_cap;
+var fexpr__23303 = cljs.core.deref(carbon_calc.core.assumptions);
+return (fexpr__23303.cljs$core$IFn$_invoke$arity$1 ? fexpr__23303.cljs$core$IFn$_invoke$arity$1(G__23304) : fexpr__23303.call(null,G__23304));
 })();
 return ((x__4222__auto__ < y__4223__auto__) ? x__4222__auto__ : y__4223__auto__);
 })()) * cljs.core.cst$kw$allowance_DASH_floor_DASH_price.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(carbon_calc.core.assumptions)));
@@ -107,22 +107,22 @@ return (0);
 }
 });
 carbon_calc.core.rein_rev_lost = (function carbon_calc$core$rein_rev_lost(param){
-if(cljs.core.truth_((function (){var fexpr__26425 = cljs.core.deref(carbon_calc.core.exempts);
-return (fexpr__26425.cljs$core$IFn$_invoke$arity$1 ? fexpr__26425.cljs$core$IFn$_invoke$arity$1(param) : fexpr__26425.call(null,param));
+if(cljs.core.truth_((function (){var fexpr__23305 = cljs.core.deref(carbon_calc.core.exempts);
+return (fexpr__23305.cljs$core$IFn$_invoke$arity$1 ? fexpr__23305.cljs$core$IFn$_invoke$arity$1(param) : fexpr__23305.call(null,param));
 })())){
 return (0);
 } else {
-return ((((function (){var G__26426 = cljs.core.cst$kw$assumed_DASH_emissions.cljs$core$IFn$_invoke$arity$1(carbon_calc.core.constants);
-return (param.cljs$core$IFn$_invoke$arity$1 ? param.cljs$core$IFn$_invoke$arity$1(G__26426) : param.call(null,G__26426));
-})() * (function (){var G__26427 = cljs.core.deref(carbon_calc.core.allowances);
-return (param.cljs$core$IFn$_invoke$arity$1 ? param.cljs$core$IFn$_invoke$arity$1(G__26427) : param.call(null,G__26427));
+return ((((function (){var G__23306 = cljs.core.cst$kw$assumed_DASH_emissions.cljs$core$IFn$_invoke$arity$1(carbon_calc.core.constants);
+return (param.cljs$core$IFn$_invoke$arity$1 ? param.cljs$core$IFn$_invoke$arity$1(G__23306) : param.call(null,G__23306));
+})() * (function (){var G__23307 = cljs.core.deref(carbon_calc.core.allowances);
+return (param.cljs$core$IFn$_invoke$arity$1 ? param.cljs$core$IFn$_invoke$arity$1(G__23307) : param.call(null,G__23307));
 })()) * cljs.core.cst$kw$allowance_DASH_floor_DASH_price.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(carbon_calc.core.assumptions))) * (10000));
 }
 });
 carbon_calc.core.all_cat_keys = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 9, [cljs.core.cst$kw$nat_DASH_gas_DASH_mar,null,cljs.core.cst$kw$on_DASH_roa,null,cljs.core.cst$kw$oth_DASH_ele,null,cljs.core.cst$kw$non_DASH_roa,null,cljs.core.cst$kw$ele_DASH_uti,null,cljs.core.cst$kw$oth_DASH_poi_DASH_sou,null,cljs.core.cst$kw$dir_DASH_reg_DASH_man_DASH_poi_DASH_sou,null,cljs.core.cst$kw$nat_DASH_gas_DASH_uti,null,cljs.core.cst$kw$dir_DASH_ele_DASH_ser_DASH_sup,null], null), null);
 carbon_calc.core.total_cash_minus_special = (function carbon_calc$core$total_cash_minus_special(){
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$2(cljs.core._PLUS_,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__26428_SHARP_){
-return (carbon_calc.core.max_pot_revenue(p1__26428_SHARP_) - (carbon_calc.core.pot_rein_rev_lost(p1__26428_SHARP_) + carbon_calc.core.rein_rev_lost(p1__26428_SHARP_)));
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$2(cljs.core._PLUS_,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__23308_SHARP_){
+return (carbon_calc.core.max_pot_revenue(p1__23308_SHARP_) - (carbon_calc.core.pot_rein_rev_lost(p1__23308_SHARP_) + carbon_calc.core.rein_rev_lost(p1__23308_SHARP_)));
 }),cljs.core.disj.cljs$core$IFn$_invoke$arity$2(carbon_calc.core.all_cat_keys,cljs.core.cst$kw$on_DASH_roa)));
 });
 carbon_calc.core.to_transport_decarb_account = (function carbon_calc$core$to_transport_decarb_account(){
@@ -133,10 +133,10 @@ return (carbon_calc.core.total_cash_minus_special() + carbon_calc.core.to_transp
 });
 carbon_calc.core.category_row = (function carbon_calc$core$category_row(name,cat_key){
 var total = (carbon_calc.core.max_pot_revenue(cat_key) - (carbon_calc.core.pot_rein_rev_lost(cat_key) + carbon_calc.core.rein_rev_lost(cat_key)));
-return new cljs.core.PersistentVector(null, 12, 5, cljs.core.PersistentVector.EMPTY_NODE, [name,(function (){var G__26429 = cljs.core.cst$kw$assumed_DASH_emissions.cljs$core$IFn$_invoke$arity$1(carbon_calc.core.constants);
-return (cat_key.cljs$core$IFn$_invoke$arity$1 ? cat_key.cljs$core$IFn$_invoke$arity$1(G__26429) : cat_key.call(null,G__26429));
-})(),[cljs.core.str.cljs$core$IFn$_invoke$arity$1((((100) * ((function (){var G__26431 = cljs.core.cst$kw$assumed_DASH_emissions.cljs$core$IFn$_invoke$arity$1(carbon_calc.core.constants);
-return (cat_key.cljs$core$IFn$_invoke$arity$1 ? cat_key.cljs$core$IFn$_invoke$arity$1(G__26431) : cat_key.call(null,G__26431));
+return new cljs.core.PersistentVector(null, 12, 5, cljs.core.PersistentVector.EMPTY_NODE, [name,(function (){var G__23309 = cljs.core.cst$kw$assumed_DASH_emissions.cljs$core$IFn$_invoke$arity$1(carbon_calc.core.constants);
+return (cat_key.cljs$core$IFn$_invoke$arity$1 ? cat_key.cljs$core$IFn$_invoke$arity$1(G__23309) : cat_key.call(null,G__23309));
+})(),[cljs.core.str.cljs$core$IFn$_invoke$arity$1((((100) * ((function (){var G__23311 = cljs.core.cst$kw$assumed_DASH_emissions.cljs$core$IFn$_invoke$arity$1(carbon_calc.core.constants);
+return (cat_key.cljs$core$IFn$_invoke$arity$1 ? cat_key.cljs$core$IFn$_invoke$arity$1(G__23311) : cat_key.call(null,G__23311));
 })() / cljs.core.cst$kw$total.cljs$core$IFn$_invoke$arity$1(cljs.core.cst$kw$assumed_DASH_emissions.cljs$core$IFn$_invoke$arity$1(carbon_calc.core.constants)))) | (0))),"%"].join(''),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [carbon_calc.core.category_checkbox,cat_key], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [carbon_calc.core.category_slider,cat_key], null),carbon_calc.core.comma_money(carbon_calc.core.max_pot_revenue(cat_key)),carbon_calc.core.comma_money(carbon_calc.core.pot_rein_rev_lost(cat_key)),carbon_calc.core.comma_money(carbon_calc.core.rein_rev_lost(cat_key)),carbon_calc.core.comma_money(total),(0),carbon_calc.core.comma_money(total),[cljs.core.str.cljs$core$IFn$_invoke$arity$1((((100) * (total / carbon_calc.core.big_total())) | (0))),"%"].join('')], null);
 });
 carbon_calc.core.totals_row = (function carbon_calc$core$totals_row(){
